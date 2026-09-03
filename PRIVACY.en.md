@@ -15,6 +15,7 @@ To provide the core experience, Lifeward processes the following data on your de
 - app or category identifiers you select through the system picker;
 - shared and individual allowances, protection status, and notification preferences;
 - usage duration, allowance status, and recent usage records for selected apps;
+- usage for up to 7 complete calendar days before protection and the dates on which a limit was reached;
 - per-app temporary-access status, selected duration, daily count, and accumulated time;
 - operational status such as whether required access is working.
 
@@ -24,7 +25,9 @@ Lifeward does not ask for, store, or analyze why you temporarily allow an app. T
 
 ## 2. How We Use Data
 
-This data is used only to calculate allowances, show usage, apply limits, calculate temporary-access time and uses separately for each app, send necessary alerts you allow, and show whether protection is working. Core rules and records stay on the current device by default and are not uploaded to the developer’s servers.
+This data is used only to calculate allowances, show usage, apply limits, calculate temporary-access time and uses separately for each app, send necessary alerts you allow, and show whether protection is working. When enough system data is available, Lifeward also uses the highest-use complete day among up to 7 days before protection as a historical baseline and estimates the reduction after protection. Temporary-access usage remains included in actual usage. This is an estimate, not directly observed time saved.
+
+Historical Screen Time usage, hourly curves, the baseline, and estimated reduction are calculated and rendered only inside Apple’s Device Activity Report privacy sandbox. They are not written to the shared container or uploaded to the developer’s servers. The shared container stores only the protection scope, statistics start time, and date-level indication that a limit was reached, deduplicated by calendar day.
 
 ## 3. System Access
 
@@ -39,7 +42,7 @@ Lifeward currently does not sell personal data, use cross-app advertising tracki
 
 ## 5. Retention and Deletion
 
-Data remains on your device until you delete the related rules or records in the app, or uninstall Lifeward. The operating system may include app data in backups according to your device and cloud-backup settings.
+Rules and dates on which a limit was reached remain locally on your device. Changing the protection scope or stopping protection resets the current impact period. Uninstalling Lifeward removes data in the app container. The operating system may include app data in backups according to your device and cloud-backup settings.
 
 ## 6. Security
 

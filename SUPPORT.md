@@ -22,7 +22,11 @@ For help, bug reports, or privacy requests, open an issue in the support reposit
 
 ### 为什么使用时间没有立即更新？
 
-使用记录由 iOS 屏幕使用时间报告提供，可能存在短暂的系统刷新延迟。如果保护状态显示“需要处理”，请按 App 内提示修复权限或监控计划。
+使用记录由 iOS 屏幕使用时间报告提供，可能存在短暂的系统刷新延迟。请返回知归稍后查看。如果保护状态显示“需要处理”，请按页面提示修复权限或监控计划。
+
+### “预计少用”是怎样计算的？
+
+知归使用保护前最多 7 个完整自然日中用量最高的一天作为历史高用量基线，并与保护后的实际用量比较。临时放开期间的使用仍计入实际用量。该结果用于观察趋势，是估算值；历史数据不足时不会显示估算结果。
 
 ### 拒绝通知会影响保护吗？
 
@@ -30,11 +34,11 @@ For help, bug reports, or privacy requests, open an issue in the support reposit
 
 ### 如何临时放开一个 App？
 
-打开知归，在首页选择一个明确加入保护的 App，进入详情页后点击“更多”和“临时放开”。完成冷静确认后，只会临时放开当前 App，其他项目继续受到保护。
+打开知归，在首页选择一个明确加入保护的 App，进入详情页后点击“更多”与“临时放开”。选择时长并完成冷静确认后，只会临时放开当前 App，其他项目继续受到保护。整个类别不能整体临时放开。
 
-### 如何删除本地数据？
+### 如何停止保护？
 
-进入“隐私与数据”，选择清除使用记录或清除全部数据。你也可以卸载 App。若要撤销 Screen Time 授权，请前往 iOS 系统设置操作。
+在知归设置中进入“保护状态”，选择停止保护，并完成冷静期和最终确认。停止后不再统计或遮挡；重新开启时可以恢复已经保存的规则。
 
 ## Frequently Asked Questions
 
@@ -44,7 +48,11 @@ Lifeward uses Apple’s Screen Time / Family Controls frameworks so you can choo
 
 ### Why does usage take time to update?
 
-Usage is supplied by iOS Screen Time reports and may have a short system-controlled refresh delay. If protection shows “Needs attention,” follow the in-app steps to repair authorization or monitoring.
+Usage is supplied by iOS Screen Time reports and may have a short system-controlled refresh delay. Return to Lifeward and check again later. If protection shows “Needs attention,” follow the in-app steps to repair authorization or monitoring.
+
+### How is the estimated reduction calculated?
+
+Lifeward uses the highest-use complete day among up to 7 days before protection as a historical high-use baseline and compares it with actual usage after protection. Temporary-access usage remains included in actual usage. The result is an estimate intended to show a trend; no estimate is shown when historical data is insufficient.
 
 ### Does declining notifications disable protection?
 
@@ -52,11 +60,11 @@ No. Notifications provide optional reminders. Screen Time protection and the sys
 
 ### How do I temporarily open one app?
 
-Select an explicitly protected app from the Lifeward home screen, tap “More,” and choose “Temporary access.” After completing the cooldown and confirmation flow, only that app is released; other protected items remain protected.
+In Lifeward, select an explicitly protected app from the home screen, tap “More,” and choose “Temporary access.” Select a duration and complete the cooldown and confirmation flow. Only that app is released; other protected items remain protected. An entire category cannot be temporarily released.
 
-### How do I delete local data?
+### How do I stop protection?
 
-Open “Privacy & data” and clear usage history or all local data. You can also uninstall Lifeward. To revoke Screen Time authorization, use iOS Settings.
+Open Settings in Lifeward, choose “Protection status,” and complete the cooldown and final confirmation. Lifeward stops counting and shielding while protection is off. Your saved rules can be restored when you turn it back on.
 
 ## Privacy Policies
 
