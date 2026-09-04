@@ -4,7 +4,7 @@ Effective date: August 15, 2026
 
 Developer: Shichang Yang
 
-Privacy contact: [GitHub Issues](https://github.com/yang152412/lifeward-support/issues)
+Privacy contact: [yang152412@163.com](mailto:yang152412@163.com)
 
 Lifeward is a self-management tool that helps people set usage allowances for selected apps. This policy explains how Lifeward handles and protects data.
 
@@ -68,4 +68,4 @@ We will update this policy when features or data practices materially change and
 
 Developer: Shichang Yang
 
-Contact: [GitHub Issues](https://github.com/yang152412/lifeward-support/issues)
+Privacy email: [yang152412@163.com](mailto:yang152412@163.com)

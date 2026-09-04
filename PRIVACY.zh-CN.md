@@ -4,7 +4,7 @@
 
 开发者：Shichang Yang
 
-隐私联系：[GitHub Issues](https://github.com/yang152412/lifeward-support/issues)
+隐私联系邮箱：[yang152412@163.com](mailto:yang152412@163.com)
 
 知归是一款帮助用户为特定 App 设置使用额度的自我管理工具。本政策说明知归如何处理与保护数据。
 
@@ -68,4 +68,4 @@
 
 开发者：Shichang Yang
 
-联系入口：[GitHub Issues](https://github.com/yang152412/lifeward-support/issues)
+隐私联系邮箱：[yang152412@163.com](mailto:yang152412@163.com)

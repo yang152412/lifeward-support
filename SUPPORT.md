@@ -6,9 +6,9 @@ Lifeward helps you set daily boundaries for apps and categories that tend to pul
 
 ## 联系与反馈 / Contact and Feedback
 
-如需使用帮助、问题反馈或提出隐私请求，请在支持仓库中创建 Issue：
+如需使用帮助或问题反馈，请在支持仓库中创建 Issue。隐私请求请发送邮件：`yang152412@163.com`。
 
-For help, bug reports, or privacy requests, open an issue in the support repository:
+For help or bug reports, open an issue in the support repository. For privacy requests, email `yang152412@163.com`.
 
 **[Open a Support Issue](https://github.com/yang152412/lifeward-support/issues/new)**
 
